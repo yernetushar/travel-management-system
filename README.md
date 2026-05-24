@@ -8,7 +8,7 @@ analytics, and secure authentication.
 
 ## 🏗️ Architecture
 
-!<img width="1917" height="1041" alt="image" src="https://github.com/user-attachments/assets/172739ae-7fc2-4d66-9f27-c1aa31becd05" />
+<img width="1917" height="1041" alt="image" src="https://github.com/user-attachments/assets/172739ae-7fc2-4d66-9f27-c1aa31becd05" />
 
 ---
 
@@ -152,7 +152,7 @@ docker pull yernetushar/travel-frontend
 
 **Tushar Yerne**
 - GitHub: [@yernetushar](https://github.com/yernetushar)
-- LinkedIn: [your-linkedin-url]
+- LinkedIn: [(https://www.linkedin.com/in/tusharr-y/)]
 
 ---
 
