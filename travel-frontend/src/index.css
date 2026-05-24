@@ -1,0 +1,42 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --sand: #f5f0e8;
+  --terra: #c4622d;
+  --terra-dark: #a04e22;
+  --terra-light: #e8845a;
+  --ink: #1a1410;
+  --ink-soft: #3d2e22;
+  --mist: #7a6e64;
+  --white: #fefcf8;
+  --success: #2d7a4f;
+  --danger: #c43a2d;
+  --card-bg: rgba(254,252,248,0.95);
+  --border: rgba(196,98,45,0.15);
+  --shadow: 0 4px 32px rgba(26,20,16,0.10);
+  --shadow-lg: 0 12px 48px rgba(26,20,16,0.18);
+  --radius: 16px;
+  --radius-sm: 8px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--sand);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+a { text-decoration: none; color: inherit; }
+
+button { cursor: pointer; font-family: inherit; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--sand); }
+::-webkit-scrollbar-thumb { background: var(--terra-light); border-radius: 3px; }

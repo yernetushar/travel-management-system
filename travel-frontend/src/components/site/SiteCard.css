@@ -1,0 +1,82 @@
+.site-card {
+  background: var(--white);
+  border-radius: var(--r-md);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  box-shadow: var(--sh);
+}
+.site-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sh-md);
+  border-color: var(--earth-light);
+}
+
+.site-card-img {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  background: var(--sand);
+}
+.site-card-img img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.site-card:hover .site-card-img img { transform: scale(1.04); }
+
+.site-card-img-placeholder {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 48px;
+}
+
+.site-card-cat {
+  position: absolute; top: 10px; left: 10px;
+  display: flex; align-items: center; gap: 4px;
+  font-size: 11px;
+}
+
+.site-card-body { padding: 16px; }
+
+.site-card-body h3 {
+  font-size: 16px; margin-bottom: 6px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.site-card-desc {
+  font-size: 13px; color: var(--muted); line-height: 1.5;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.site-card-meta {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 12px;
+}
+.site-card-meta span {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 12px; color: var(--muted);
+}
+
+.site-card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-light);
+}
+
+.site-card-stats {
+  display: flex; gap: 12px;
+}
+.site-card-stats span {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 12px; color: var(--muted);
+}
+
+.site-card-fee {
+  font-size: 12px; font-weight: 600;
+  color: var(--earth);
+}
