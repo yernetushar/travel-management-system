@@ -1,0 +1,97 @@
+# ===========================
+# ECLIPSE WORKSPACE
+# ===========================
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+# ===========================
+# SPRING BOOT - ALL SERVICES
+# ===========================
+**/target/
+**/*.jar
+**/*.war
+**/*.class
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# ===========================
+# SECRETS - NEVER COMMIT
+# ===========================
+.env
+.env.*
+!.env.example
+**/application-prod.properties
+**/application-local.properties
+**/application-dev.properties
+**/*.p12
+**/*.jks
+**/*.pem
+**/*.crt
+**/*.key
+
+# ===========================
+# NODE / REACT
+# ===========================
+**/node_modules/
+travel-frontend/dist/
+travel-frontend/build/
+travel-frontend/.vite/
+travel-frontend/.cache/
+
+# ===========================
+# LOGS
+# ===========================
+**/logs/
+**/*.log
+**/spring.log
+
+# ===========================
+# DOCKER
+# ===========================
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# ===========================
+# NGINX
+# ===========================
+nginx/logs/
+nginx/ssl/
+
+# ===========================
+# JENKINS
+# ===========================
+jenkins_home/
+.jenkins/
+
+# ===========================
+# NGROK
+# ===========================
+ngrok.yml
+.ngrok2/
+ngrok.log
+
+# ===========================
+# IDE - Eclipse + VSCode
+# ===========================
+**/.idea/
+**/*.iml
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+**/.vscode/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
