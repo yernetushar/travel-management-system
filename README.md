@@ -8,7 +8,7 @@ analytics, and secure authentication.
 
 ## 🏗️ Architecture
 
-!<imgwidth="1917" height="1041" alt="image" src="https://github.com/user-attachments/assets/172739ae-7fc2-4d66-9f27-c1aa31becd05" />
+!<img width="1917" height="1041" alt="image" src="https://github.com/user-attachments/assets/172739ae-7fc2-4d66-9f27-c1aa31becd05" />
 
 ---
 
