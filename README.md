@@ -11,8 +11,6 @@ analytics, and secure authentication.
 🏗️ Architecture
 ![Upl<svg width="100%" viewBox="0 0 680 620" role="img" style="" xmlns="http://www.w3.org/2000/svg">
 
-</svg>oading travel_management_architecture.svg…]()
-
 ---
 
 ## 🛠️ Tech Stack
