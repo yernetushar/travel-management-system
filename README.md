@@ -131,30 +131,6 @@ MAIL_PASSWORD=your-email-app-password
 
 ---
 
-## 📁 Project Structure
-travel-management-system/
-├── .github/
-│   └── workflows/
-│       └── ci-cd.yml          # GitHub Actions pipeline
-├── analytics-service/         # Spring Boot
-├── api-gateway/               # Spring Cloud Gateway
-├── auth-service/              # Spring Security + OAuth2
-├── booking-service/           # Spring Boot
-├── chat-service/              # Spring Boot + Kafka
-├── eureka-server/             # Spring Cloud Eureka
-├── image-service/             # Spring Boot
-├── notification-service/      # Spring Boot + Kafka + Mail
-├── site-service/              # Spring Boot
-├── user-service/              # Spring Boot
-├── travel-frontend/           # React + Vite
-├── nginx/
-│   └── nginx.conf             # Reverse proxy config
-├── docker-compose.yml         # Full stack orchestration
-├── .env.example               # Environment template
-└── .gitignore
-
----
-
 ## 🐳 DockerHub Images
 
 All images available at:
